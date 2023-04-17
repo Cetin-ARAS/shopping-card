@@ -6,7 +6,7 @@ const ProductItem = () => {
       <div className="p-4">
         <h2 className="text-xl font-semibold">Ürün 1</h2>
         <p className="text-gray-500 my-2">100 TL</p>
-        <button className="bg-blue-500 text-white px-4 rounde">Sepete Ekle</button>
+        <button className="bg-blue-500 text-white px-4 py-[8px] rounded hover:bg-blue-600 w-full">Sepete Ekle</button>
       </div>
     </div>
   )
