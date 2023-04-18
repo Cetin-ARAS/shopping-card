@@ -9,7 +9,7 @@ function App() {
     <div className="container mx-auto p-4">
      <Header/>
      <Products card={card} setCard={setCard}/>
-     {card.length > 0 && <Card/>}
+      <Card card={card}/>
     </div>
   )
 }
